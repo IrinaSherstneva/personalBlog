@@ -1,0 +1,9 @@
+<%- include("partials/header"); -%>
+
+<div class="postDetailed">
+  <h4 class="postTitle"><%=title%></h4>
+  <%  paragraphs.forEach(function(paragraph){ %>
+  <p><%=paragraph%></p>
+  <% }) %>
+</div>
+<%- include("partials/footer"); -%>

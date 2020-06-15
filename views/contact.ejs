@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+
+<div class="postDetailed">
+    <h2 class="postTitle"><%= contactTitle %></h2>
+    <div>
+        <a href="https://github.com/IrinaSherstneva" target="_new"><i class="social-icon fab fa-2x fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/irina-sherstneva-24b933121/" target="_new"><i class="social-icon fab fa-2x fa-linkedin"></i></a>
+        <!-- <a href="https://www.instagram.com/irina07scw/" target="_new"><i class="social-icon fab fa-2x fa-instagram"></i></a> -->
+        <a href="mailto:irina07scw@gmail.com" target="_new"><i class="social-icon fas fa-2x fa-envelope"></i></a>
+        </div>
+    <%  paragraphs.forEach(function(paragraph){ %>
+    <p><%=paragraph%></p>
+    <% }) %>
+
+</div>
+<%- include("partials/footer"); -%>
